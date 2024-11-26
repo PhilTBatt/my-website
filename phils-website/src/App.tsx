@@ -1,4 +1,5 @@
 import './App.css'
+import CV from './Components/CV'
 import Header from './Components/Header'
 import Projects from './Components/Projects'
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Header/>
     <Projects/>
+    <CV/>
     </>
   )
 }
