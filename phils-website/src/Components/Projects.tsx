@@ -3,7 +3,9 @@ export default function Projects() {
         <section>
             Projects
             <br/>
-            
+            <ul>
+                
+            </ul>
         </section>
     )
 }

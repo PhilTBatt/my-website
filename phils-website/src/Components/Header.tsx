@@ -4,11 +4,11 @@ export default function Header() {
             <h1>
                 Philip Battersby
             </h1>
-            <a href="https://github.com/PhilTBatt"></a>
-            <a href="inkedin.com/in/philip-battersby"></a>
+            <a href="https://github.com/PhilTBatt">GitHub</a>
+            <a href="inkedin.com/in/philip-battersby">LinkedIn</a>
             <br/>
-            <a href="mailto:philtbatt@gmail.com"></a>
-            07786184893
+            <a href="mailto:philtbatt@gmail.com">philtbatt@gmail.com</a>
+            <p>07786184893</p>
         </section>
     )
 }
