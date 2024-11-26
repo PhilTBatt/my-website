@@ -1,5 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
   font-family: Arial;
+  background-color: #F5F3F5;
   margin: 0 auto;
   text-align: center;
+}
+
+#body {
+  margin: 0
 }
