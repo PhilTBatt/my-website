@@ -8,16 +8,13 @@ export default function Header() {
                 <a href="mailto:philtbatt@gmail.com" aria-label="Email Philip Battersby" className="text-[6vw] lg:text-[2.5vw] hover:text-gray-700">
                     philtbatt@gmail.com
                 </a>
-                <p className="text-[6vw] lg:text-[2.5vw]">
-                    07786184893
-                </p>
             </div>
-            <span className="self-center pt-1 flex flex-col lg:flex-row">
+            <span className="self-center pt-1 flex flex-col lg:flex-row lg:p-[0.75vw]">
                 <a href="https://github.com/PhilTBatt" target="blank" aria-label="Visit Philip Battersby's GitHub Profile">
-                    <i className="fab fa-github text-[15vw] text-gray-700 hover:text-black lg:text-[11vw] lg:px-10"></i>
+                    <i className="fab fa-github text-[9.5vw] text-gray-700 hover:text-black lg:text-[8vw] lg:px-10"></i>
                 </a>
                 <a href="inkedin.com/in/philip-battersby" target="blank" aria-label="Visit Philip Battersby's LinkedIn Profile">
-                    <i className="fab fa-linkedin text-[15vw] text-blue-700 hover:text-blue-900 lg:text-[11vw]"></i>
+                    <i className="fab fa-linkedin text-[9.5vw] text-blue-700 hover:text-blue-900 lg:text-[8vw]"></i>
                 </a>
             </span>
         </section>
