@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
+body {
   font-family: Arial;
   background-color: #F5F3F5;
   text-align: center;
 }
 
 .section-box {
-  @apply bg-blue-500 rounded-md border border-gray-300 hover:shadow-lg m-[1.5vw] md:mx-[15vw]
+  @apply bg-blue-500 rounded-md border border-gray-900 hover:shadow-lg m-[1.5vw] md:mx-[15vw]
 }
 
 .project-box {
