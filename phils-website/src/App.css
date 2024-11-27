@@ -9,9 +9,15 @@ body {
 }
 
 .section-box {
-  @apply bg-blue-500 rounded-md border border-gray-900 hover:shadow-lg m-[1.5vw] lg:mx-[10vw]
+  @apply bg-section-colour rounded-lg border border-gray-900 hover:shadow-xl m-[1.5vw] lg:mx-[10vw] text-text-colour;
+  border-width: 0.3vw;
 }
 
 .project-box {
-  @apply bg-red-500 rounded-md border border-gray-300 hover:shadow-lg m-[1vw] md:mx-[15vw] p-1 text-[6vw] lg:text-[2.5vw] lg:mx-[1vw] lg:my-[0.5vw]
+  @apply bg-project-colour rounded-xl border border-gray-300 hover:shadow-2xl hover:bg-project-hover-colour m-[1vw] md:mx-[15vw] p-[0.5vw] px-[2vw] text-[6vw] lg:text-[2.5vw] lg:mx-[1vw] lg:my-[0.5vw] lg:p-[0.25vw] lg:px-[1vw];
+  border-width: 0.15vw;
+}
+
+.project-box:hover {
+  border-color: #3a5360;
 }

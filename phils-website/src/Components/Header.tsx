@@ -5,7 +5,7 @@ export default function Header() {
                 <h1 className="text-[10vw] text-left leading-tight lg:text-[4.5vw]">
                     Philip Battersby
                 </h1>
-                <a href="mailto:philtbatt@gmail.com" aria-label="Email Philip Battersby" className="text-[6vw] lg:text-[2.5vw]">
+                <a href="mailto:philtbatt@gmail.com" aria-label="Email Philip Battersby" className="text-[6vw] lg:text-[2.5vw] hover:text-gray-700">
                     philtbatt@gmail.com
                 </a>
                 <p className="text-[6vw] lg:text-[2.5vw]">
