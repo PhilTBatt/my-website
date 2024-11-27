@@ -9,9 +9,9 @@ body {
 }
 
 .section-box {
-  @apply bg-blue-500 rounded-md border border-gray-900 hover:shadow-lg m-[1.5vw] md:mx-[15vw]
+  @apply bg-blue-500 rounded-md border border-gray-900 hover:shadow-lg m-[1.5vw] lg:mx-[10vw]
 }
 
 .project-box {
-  @apply bg-red-500 rounded-md border border-gray-300 hover:shadow-lg m-[1.5vw] md:mx-[15vw] p-1 m-1
+  @apply bg-red-500 rounded-md border border-gray-300 hover:shadow-lg m-[1vw] md:mx-[15vw] p-1 text-[6vw] lg:text-[2.5vw] lg:mx-[1vw] lg:my-[0.5vw]
 }
