@@ -1,11 +1,19 @@
 export default function Projects() {
     return (
-        <section>
-            <h2>My Projects</h2>
-            <div>
-                <a href="" target="blank">Clowder - Cat Tracking Web App</a>
-                <a href="https://philtbatt-ncnews.netlify.app/" target="blank">Northcoders News Site</a>
-                <a href="https://be-nc-news-oovq.onrender.com/api" target="_blank">Northcoders News API</a>
+        <section className="section-box">
+            <h2 className="text-[7vw]">
+                My Projects
+            </h2>
+            <div className="flex flex-wrap px-1 justify-center pb-1">
+                <a href="" target="blank" className="project-box">
+                    Clowder - Cat Tracking Web App
+                </a>
+                <a href="https://philtbatt-ncnews.netlify.app/" target="blank" className="project-box">
+                    Northcoders News Site
+                </a>
+                <a href="https://be-nc-news-oovq.onrender.com/api" target="_blank" className="project-box">
+                    Northcoders News API
+                </a>
             </div>
         </section>
     )

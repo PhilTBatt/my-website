@@ -5,6 +5,13 @@
 #root {
   font-family: Arial;
   background-color: #F5F3F5;
-  margin: 0 auto;
   text-align: center;
+}
+
+.section-box {
+  @apply bg-blue-500 rounded-md border border-gray-300 hover:shadow-lg m-[1.5vw] md:mx-[15vw]
+}
+
+.project-box {
+  @apply bg-red-500 rounded-md border border-gray-300 hover:shadow-lg m-[1.5vw] md:mx-[15vw] p-1 m-1
 }
